@@ -1,0 +1,60 @@
+// !$*UTF8*$!
+{
+ archiveVersion = 1;
+ classes = { };
+ objectVersion = 56;
+ objects = {
+
+ AAA000000000000000000001 /* FortiMune */ = {
+   isa = PBXNativeTarget;
+   buildConfigurationList = BBB000000000000000000001;
+   buildPhases = (CCC000000000000000000001, CCC000000000000000000002, CCC000000000000000000003);
+   buildRules = ();
+   dependencies = ();
+   name = FortiMune;
+   productName = FortiMune;
+   productReference = DDD000000000000000000001;
+   productType = "com.apple.product-type.application";
+ };
+
+ AAA000000000000000000002 /* Project */ = {
+   isa = PBXProject;
+   attributes = { LastUpgradeCheck = 1600; TargetAttributes = { AAA000000000000000000001 = { CreatedOnToolsVersion = 16.0; }; }; };
+   buildConfigurationList = BBB000000000000000000002;
+   compatibilityVersion = "Xcode 15.0";
+   developmentRegion = en;
+   hasScannedForEncodings = 0;
+   knownRegions = (en, Base);
+   mainGroup = EEE000000000000000000001;
+   productRefGroup = EEE000000000000000000002;
+   projectDirPath = "";
+   projectRoot = "";
+   targets = (AAA000000000000000000001);
+ };
+
+ DDD000000000000000000001 /* FortiMune.app */ = { isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FortiMune.app; sourceTree = BUILT_PRODUCTS_DIR; };
+ DDD000000000000000000002 /* FortiMuneApp.swift */ = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortiMuneApp.swift; sourceTree = "<group>"; };
+ DDD000000000000000000003 /* Info.plist */ = { isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+ DDD000000000000000000004 /* Assets.xcassets */ = { isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+
+ EEE000000000000000000001 /* Main Group */ = { isa = PBXGroup; children = (EEE000000000000000000003, EEE000000000000000000002); sourceTree = "<group>"; };
+ EEE000000000000000000002 /* Products */ = { isa = PBXGroup; children = (DDD000000000000000000001); name = Products; sourceTree = "<group>"; };
+ EEE000000000000000000003 /* FortiMune */ = { isa = PBXGroup; children = (DDD000000000000000000002, DDD000000000000000000003, DDD000000000000000000004); path = FortiMune; sourceTree = "<group>"; };
+
+ CCC000000000000000000001 /* Sources */ = { isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (FFF000000000000000000001); runOnlyForDeploymentPostprocessing = 0; };
+ CCC000000000000000000002 /* Resources */ = { isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (FFF000000000000000000002, FFF000000000000000000003); runOnlyForDeploymentPostprocessing = 0; };
+ CCC000000000000000000003 /* Frameworks */ = { isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+
+ FFF000000000000000000001 /* Swift */ = { isa = PBXBuildFile; fileRef = DDD000000000000000000002; };
+ FFF000000000000000000002 /* Info */ = { isa = PBXBuildFile; fileRef = DDD000000000000000000003; };
+ FFF000000000000000000003 /* Assets */ = { isa = PBXBuildFile; fileRef = DDD000000000000000000004; };
+
+ BBB000000000000000000001 /* Target configs */ = { isa = XCConfigurationList; buildConfigurations = (BBB000000000000000000003, BBB000000000000000000004); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+ BBB000000000000000000002 /* Project configs */ = { isa = XCConfigurationList; buildConfigurations = (BBB000000000000000000005, BBB000000000000000000006); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+ BBB000000000000000000003 /* Debug target */ = { isa = XCBuildConfiguration; buildSettings = { PRODUCT_BUNDLE_IDENTIFIER = com.innoval.fortimuneinjection; INFOPLIST_FILE = FortiMune/Info.plist; IPHONEOS_DEPLOYMENT_TARGET = 15.0; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; } ; name = Debug; };
+ BBB000000000000000000004 /* Release target */ = { isa = XCBuildConfiguration; buildSettings = { PRODUCT_BUNDLE_IDENTIFIER = com.innoval.fortimuneinjection; INFOPLIST_FILE = FortiMune/Info.plist; IPHONEOS_DEPLOYMENT_TARGET = 15.0; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; } ; name = Release; };
+ BBB000000000000000000005 /* Debug project */ = { isa = XCBuildConfiguration; buildSettings = { ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; }; name = Debug; };
+ BBB000000000000000000006 /* Release project */ = { isa = XCBuildConfiguration; buildSettings = { ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; SWIFT_OPTIMIZATION_LEVEL = "-O"; }; name = Release; };
+ };
+ rootObject = AAA000000000000000000002;
+}
