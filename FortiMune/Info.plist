@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
     <key>CFBundleDisplayName</key>
-    <string>FortiMune Injection</string>
+    <string>IVAS</string>
     <key>CFBundleIdentifier</key>
     <string>com.innoval.fortimuneinjection</string>
     <key>CFBundleName</key>
-    <string>FortiMune Injection</string>
+    <string>IVAS</string>
     <key>CFBundleShortVersionString</key>
     <string>1.0.0</string>
     <key>CFBundleVersion</key>
@@ -17,11 +17,11 @@
     <key>UILaunchScreen</key>
     <dict/>
     <key>NSCameraUsageDescription</key>
-    <string>FortiMune needs camera access to capture injection report images.</string>
+    <string>IVAS needs camera access to capture injection report images.</string>
     <key>NSPhotoLibraryUsageDescription</key>
-    <string>FortiMune needs photo access to attach injection report images.</string>
+    <string>IVAS needs photo access to attach injection report images.</string>
     <key>NSPhotoLibraryAddUsageDescription</key>
-    <string>FortiMune may save generated files to your Photos when requested.</string>
+    <string>IVAS may save generated files to your Photos when requested.</string>
     <key>UIFileSharingEnabled</key>
     <true/>
     <key>LSSupportsOpeningDocumentsInPlace</key>
